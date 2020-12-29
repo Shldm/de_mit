@@ -8,7 +8,9 @@
 
  
 dst_tbl_name = "test_table_copy"
+
 sql_inc = ""SELECT * FROM test_table"
+
 dq_conn = pipline_get_connect('con_home')
 
 piplince_exec(engine_src=dq_conn, engine_dst=dq_conn, dst_tbl_name, sql_inc, sql_del= None, cnt_pool=1)
