@@ -7,6 +7,8 @@
 4. Запускаете код ниже, смотрите как перелались таблицаи дальше все будет понятно :)
 
  
+import etl
+
 dst_tbl_name = "test_table_copy"
 
 sql_inc = ""SELECT * FROM test_table"
