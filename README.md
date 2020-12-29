@@ -19,7 +19,6 @@ piplince_exec(engine_src=dq_conn, engine_dst=dq_conn, dst_tbl_name, sql_inc, sql
 
 
 Пример заполнения конфига:
-{
-"con_home": {"str": "mssql+pyodbc://ИМЯУЧЕТКИ:ПАРОЛЬ@АДРЕССЕРВЕРА/ИМЯБАЗЫ?driver=SQL+Server+Native+Client+11.0"}
-}
+
+{"con_home": {"str": "mssql+pyodbc://ИМЯУЧЕТКИ:ПАРОЛЬ@АДРЕССЕРВЕРА/ИМЯБАЗЫ?driver=SQL+Server+Native+Client+11.0"}}
  
